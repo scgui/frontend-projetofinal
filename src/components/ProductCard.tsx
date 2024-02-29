@@ -21,6 +21,7 @@ export const ProductCard = ({ openModal, ...product }: ProductCardProps) => {
       <div className="mb-4">
         <h2 className="text-xl font-bold">{name}</h2>
       </div>
+      <p className="hidden">{description}</p>
       <div className="flex items-center justify-between">
         <p className="text-lg font-semibold">R${price.toFixed(2)}</p>
       </div>
